@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/pogudin/module_6_part3-backend:latest
+          image: ghcr.io/pogudin/assignment_6_part3-backend:953f73e2bd4f1da839802632e2cdc9871ff6b55d
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
